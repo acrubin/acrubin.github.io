@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  
+
+/* CODE BEGINS HERE */
+
+
+
+
+body{
+  background-color: #1a2325;
+  border-top: 2px solid #f8695a;
+}
+
+
+
+.logo {
+padding-left: 140px;
+}
+
+
+
+
+article{
+  padding-bottom: 500px;
+  max-width:1150px;
+  margin: auto;
+    width: 80%;
+}
+
+
+article:not(.not){
+  border-top: dotted 1px #31393b;
+
+}
+
+
+
+
+h1{
+  font-family: "Quatro Slab";
+  font-size:36px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+
+
+
+
+.image {
+  position: absolute; 
+  margin-left: 460px; 
+  margin-bottom: 120px;
+    height: 788px;
+    width: 628px;
+    border:5px solid white;
+}
+
+
+
+
+.grey {
+  color: #555a5b;
+  font-size: 16px;
+  padding-bottom: 30px;
+  font-family: "LFT Etica";
+
+}
+
+
+
+
+
+h2{
+  font-family: "Quatro Slab";
+  font-size: 24px;
+  color: white;
+  display: inline;
+  padding: 20px;
+  line-height: 125px;
+  position: relative;
+}
+
+
+
+p{
+  font-family: "lft Etica"; 
+  font-weight: 400px;
+  font-size:16px;
+  color: #6d7171;
+  width: 500px;
+  color: #abadad;
+  padding-bottom: 10px;
+  max-width: 350px;
+}
+
+
+
+
+button{
+  color: white;
+  border: none;
+  background-color: #01ccce;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: "LFT Etica";
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 40px;
+  text-transform: uppercase;
+    
+}
+
+.button:hover{
+  background-color: #028f90;
+}
+
+
+
+
+.check {
+  color: #01bfc1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 145px;
+  border-bottom: 1px dotted #31393b;
+  text-decoration: none;
+}
+
+
+
+
+.check:hover
+{
+  color: #028f90;
+}
+
+
+
